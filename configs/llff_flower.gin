@@ -1,5 +1,5 @@
 # LLFF settings
-Config.data_dir = "/mnt/data0/niki/data/nerf_llff_data"
+Config.data_dir = "./data/nerf_llff_data"
 Config.checkpoint_dir = "checkpoints/llff3/flower"
 Config.dataset_loader = 'llff'
 Config.llff_scan = 'flower'
