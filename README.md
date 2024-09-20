@@ -15,7 +15,14 @@ Official PyTorch implementation for Instant Uncertainty Calibration of NeRFs Usi
 * [Acknowledgements](#acknowledgements)
 
 ## Preparation
-### 1. Download Dataset
+
+### 1. Clone Repository
+
+```
+git clone https://github.com/niki-amini-naieni/instantcalibration.git
+```
+
+### 2. Download Dataset
 
 Please use [this download link](https://drive.google.com/file/d/1o2QEP33C_vxGrpuOKaSclwqsb4EfKnU3/view?usp=sharing) for downloading the LLFF dataset from the [NeRF repository](https://github.com/bmild/nerf). Unzip the dataset folder so that your directory looks like the one below.
 
@@ -29,13 +36,7 @@ instantcalibration
 ...
 ```
 
-### 2. Clone Repository
-
-```
-git clone https://github.com/niki-amini-naieni/instantcalibration.git
-```
-
-### 4. Set Up Anaconda Environment:
+### 3. Set Up Anaconda Environment:
 
 The following commands will create a suitable Anaconda environment for running the code. To produce the results in the paper, we used [Anaconda version 2024.02-1](https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh).
 
@@ -46,7 +47,7 @@ cd instantcalibration
 pip install -r requirements.txt
 ```
 
-### 5. Download Pre-Trained Weights
+### 4. Download Pre-Trained Weights
 
 * Make the ```checkpoints``` directory inside the ```instantcalibration``` repository.
 
