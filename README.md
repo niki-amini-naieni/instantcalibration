@@ -38,7 +38,7 @@ instantcalibration
 
 ### 3. Set Up Anaconda Environment:
 
-The following commands will create a suitable Anaconda environment for running the code. To produce the results in the paper, we used [Anaconda version 2024.02-1](https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh).
+The following commands will create a suitable Anaconda environment for running the code. To produce the results here, we used [Anaconda version 2022.10](https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh).
 
 ```
 conda create -n instantcalibration python=3.7
@@ -49,17 +49,30 @@ pip install -r requirements.txt
 
 ### 4. Download Pre-Trained Weights
 
-* Make the ```checkpoints``` directory inside the ```instantcalibration``` repository.
+* Make the ```checkpoints``` directory inside the ```instantcalibration``` folder.
 
   ```
   mkdir checkpoints
   ```
 
-* Download the pre-trained FlipNeRF checkpoints for 3-view LLFF (named ```llff3.zip```) from [here](https://drive.google.com/drive/folders/1lpI8GV3-31VTbX8Vb-YKwQ82vZlW-Uv7) and place them into the ```checkpoints``` directory.
+* Download the zip folder (named ```llff3.zip```) with the pre-trained FlipNeRF checkpoints for 3-view LLFF from [here](https://drive.google.com/drive/folders/1lpI8GV3-31VTbX8Vb-YKwQ82vZlW-Uv7) and place them into the ```checkpoints``` directory.
 
   ```
   unzip llff3.zip
   mv llff3 checkpoints
+  ```
+
+  Your directory should look like the one below.
+  
+  ```
+  instantcalibration
+  --> data
+  --> checkpoints
+  -->--> llff3
+  -->-->--> fern
+  -->-->--> flower
+  -->-->--> fortress
+  ...
   ```
 
 ## Construct Calibration Curves [Optional]
