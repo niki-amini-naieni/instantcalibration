@@ -17,7 +17,7 @@ Official PyTorch implementation for Instant Uncertainty Calibration of NeRFs Usi
 ## Preparation
 ### 1. Download Dataset
 
-Please use [the official download link](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1) from the [NeRF repository](https://github.com/bmild/nerf) for downloading the LLFF dataset. Unzip the dataset folder so that your directory looks like the one below.
+Please use [this download link](https://drive.google.com/file/d/1o2QEP33C_vxGrpuOKaSclwqsb4EfKnU3/view?usp=sharing) for downloading the LLFF dataset from the [NeRF repository](https://github.com/bmild/nerf). Unzip the dataset folder so that your directory looks like the one below.
 
 ```
 instantcalibration
