@@ -44,6 +44,8 @@ The following commands will create a suitable Anaconda environment for running t
 conda create -n instantcalibration python=3.7
 conda activate instantcalibration
 cd instantcalibration
+pip install jax==0.2.16
+pip install jaxlib==0.1.68+cuda110 -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pip install -r requirements.txt
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 ```
