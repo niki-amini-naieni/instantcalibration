@@ -59,7 +59,7 @@ export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
   mkdir checkpoints
   ```
 
-* Download the zip folder (named ```llff3.zip```) with the pre-trained FlipNeRF checkpoints for 3-view LLFF from [here](https://drive.google.com/drive/folders/1lpI8GV3-31VTbX8Vb-YKwQ82vZlW-Uv7) and place them into the ```checkpoints``` directory.
+* Download the zip folder (named ```llff3.zip```) with the pre-trained FlipNeRF checkpoints for 3-view LLFF from [here](https://drive.google.com/file/d/1oD7QpGq0_JawCzf_WTXK4hLxUKXLTErV/view?usp=sharing) and place them into the ```checkpoints``` directory.
 
   ```
   unzip llff3.zip
